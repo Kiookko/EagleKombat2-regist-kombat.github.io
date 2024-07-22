@@ -1,0 +1,75 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #0d0379;
+}
+
+.container {
+    background-color: rgb(159, 152, 152);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.632);
+    width: 400px;
+    text-align: center;
+}
+
+.agreement {
+    height: 200px;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#agree-button {
+    background-color: #4CAF50;
+    color: white;
+    display: none;
+}
+
+#disagree-button {
+    background-color: #f44336;
+    color: white;
+}
+
+#login-form {
+    display: none;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+input[type="email"],
+input[type="password"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: calc(100% - 24px);
+}
+
+#login-button {
+    background-color: #4CAF50;
+    color: white;
+}
+
+#message {
+    margin-top: 20px;
+}

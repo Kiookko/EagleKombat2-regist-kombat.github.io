@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Agreement</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Пользовательское соглашение</h1>
+        <div class="agreement" readonly>
+            <p>1.За ваши действия насете ответсвенность сами
+               2. Вашие данные не созраняются и не остаються и не передаются третьям лицам.</p>
+            <p2>3.Вы сами тратрите свое время</p2>
+            <!-- Добавьте полный текст соглашения здесь -->
+        </div>
+        <div class="buttons">
+            <label>
+                <input type="checkbox" id="agree-checkbox">
+                Я принимаю пользовательское соглашение
+            </label>
+            <button id="agree-button">Войти через Google</button>
+            <button id="disagree-button">Я не соглашаюсь на пользовательское соглашение</button>
+        </div>
+        <div id="login-form" class="login-form">
+            <input type="email" id="email" placeholder="Ваш Gmail">
+            <input type="password" id="password" placeholder="Ваш пароль">
+            <button id="login-button">Войти</button>
+        </div>
+        <div id="message"></div>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
